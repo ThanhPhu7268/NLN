@@ -1,0 +1,119 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Heading */
+
+.box__commo {
+    margin: 0 10%;
+}
+
+.box__head {
+    display: flex;
+    margin-top: 24px;
+    justify-content: space-between;
+}
+
+.box__head__title {
+    padding: 5px 10px;
+    color: #000;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 20px;
+    background-color: #f1f1f1;
+}
+
+.box__head__icon {
+    display: flex;
+}
+
+.box__head__icon-common {
+    position: relative;
+    width: 60px;
+    height: 60px;
+    font-size: 20px;
+    color: #000;
+    margin: 0 10px;
+    border-radius: 50%;
+    background-color: #f1f1f1;
+}
+
+.number {
+    text-align: center;
+    line-height: 60px;
+}
+
+.box__head__icon-common:hover {
+    cursor: pointer;
+    background-color: rgba(241, 241, 241, 0.7);
+}
+
+.menu__icon,
+.house__icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+/* Body: nội nung bài học */
+.box__body {
+    margin-top: 4%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.box__body__title {
+    margin-top: 4%;
+    text-align: center;
+}
+
+.box__body__common {
+    width: 40%;
+    height: 154px;
+    margin-bottom: 2%;
+    border-radius: 8px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(241, 241, 241, 0.7);
+}
+
+.box__body__common:hover {
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(66, 158, 255, 0.7);
+    animation: hoverTop 0.3s ease-in forwards;
+}
+
+.box__body__common img {
+    width: 100%;
+    height: 70%;
+    object-fit: contain;
+}
+
+.box__body__common h3 {
+    text-align: center;
+    line-height: 40px;
+    border-top: 1px solid #ccc;
+}
+
+.comple__img {
+    text-align: center;
+}
+
+.comple__img img {
+    width: 50vw;
+    height: 80vh;
+    object-fit: cover;
+}
+
+@keyframes hoverTop {
+    to {
+        transform: translateY(-10px);
+    }
+}

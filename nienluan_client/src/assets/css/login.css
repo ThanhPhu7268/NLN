@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* CSS chung */
+.w50 {
+    width: 50%;
+}
+
+.input__dn {
+    padding: 14px;
+}
+
+.ft18 {
+    font-size: 18px;
+}
+
+.mr4p {
+    margin-right: 4%;
+}
+
+/* CSS rieng */
+.boxdk {
+    margin-top: 90px;
+}
+
+.boxdk_container {
+    display: flex;
+    justify-content: space-around;
+    margin: 10% 10% 10% 10%;
+}
+
+.box__min {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.login__img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.box__min__icon i {
+    font-size: 26px;
+}
+
+.box__min__title {
+    color: #1e96bb;
+    margin: 4% 0;
+}
+
+.box__min__title-dk {
+    color: #FFA500;
+    margin: 4% 0;
+}
+
+.user__input {
+    padding: 16px;
+}
+
+.text-white {
+    height: 100%;
+    color: #fff;
+}
+
+.btn__dn {
+    height: 48px;
+    background-color: #1e96bb;
+}
+
+.btn__dk {
+    height: 48px;
+    background-color: #FFA500;
+}
+
+.box__dn__content {
+    display: flex;
+    justify-content: space-around;
+}
+
+.create__acc {
+    color: blue;
+}
